@@ -1,3 +1,4 @@
 *.framework filter=lfs diff=lfs merge=lfs -text
 Library/TXLiteAVSDK_LivePlay.framework/TXLiteAVSDK_LivePlay filter=lfs diff=lfs merge=lfs -text
 Library/QALSDK.framework/QALSDK filter=lfs diff=lfs merge=lfs -text
+Library/ImSDK.framework/ImSDK filter=lfs diff=lfs merge=lfs -text
