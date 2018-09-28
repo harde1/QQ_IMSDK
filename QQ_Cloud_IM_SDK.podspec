@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
 
   #s.source_files = "Class/*.{h,m}"
   #s.resource  = "Library/TLSUI.bundle"
-  s.vendored_frameworks = 'Library/ImSDK.framework', 'Library/TLSSDK.framework','Library/QALSDK.framework','Library/TXLiteAVSDK_LivePlay.framework'
+  s.vendored_frameworks = 'Library/ImSDK.framework', 'Library/TLSSDK.framework','Library/QALSDK.framework'
   #s.vendored_libraries = 'Library/*.a'
   s.frameworks = 'CoreTelephony', 'SystemConfiguration', 'Accelerate'
   s.libraries = 'stdc++.6', 'c++', 'z', 'sqlite3', 'resolv'
