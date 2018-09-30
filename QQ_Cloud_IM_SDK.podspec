@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "QQ_Cloud_IM_SDK"
+  s.name         = "QQ_IMSDK"
   s.version      = "3.3.4"
   s.summary      = "腾讯云通信iOS SDK，集成了ImSDK、QALSDK、TLSSDK 以及 TXLiteAVSDK_LivePlay framework"
 
@@ -23,21 +23,16 @@ Pod::Spec.new do |s|
   腾讯云通信iOS SDK，集成了ImSDK、QALSDK、TLSSDK framework
                    DESC
 
-  s.homepage     = "https://github.com/zenghaiguang/QQ_Cloud_IM_SDK.git"
+  s.homepage     = "https://github.com/harde1/QQ_IMSDK.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "梁慧聪" => "harde1@163.com" }
 
-  # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
-
   s.ios.deployment_target = "8.0"
 
-  s.source       = { :git => "https://github.com/zenghaiguang/QQ_Cloud_IM_SDK.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/harde1/QQ_IMSDK.git", :tag => s.version }
 
-  #s.source_files = "Class/*.{h,m}"
-  #s.resource  = "Library/TLSUI.bundle"
   s.vendored_frameworks = 'Library/ImSDK.framework', 'Library/TLSSDK.framework','Library/QALSDK.framework'
-  #s.vendored_libraries = 'Library/*.a'
+
   s.frameworks = 'CoreTelephony', 'SystemConfiguration', 'Accelerate'
   s.libraries = 'stdc++.6', 'c++', 'z', 'sqlite3', 'resolv'
 
