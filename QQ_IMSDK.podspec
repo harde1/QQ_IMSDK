@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "8.0"
 
-  s.source       = { :git => "https://github.com/harde1/QQ_IMSDK.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/harde1/QQ_IMSDK.git", :commit => "bd03428" }
 
   s.vendored_frameworks = 'Library/ImSDK.framework', 'Library/TLSSDK.framework','Library/QALSDK.framework','Library/TXLiteAVSDK_LivePlay.framework'
 
