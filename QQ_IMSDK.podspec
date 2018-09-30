@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "QQ_IMSDK"
-  s.version      = "3.3.2"
+  s.version      = "3.3.3"
   s.summary      = "腾讯云通信iOS SDK，集成了ImSDK、QALSDK、TLSSDK framework"
 
   s.description  = <<-DESC
