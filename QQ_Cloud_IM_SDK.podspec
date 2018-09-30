@@ -16,16 +16,16 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "QQ_Cloud_IM_SDK"
-  s.version      = "3.0.4"
+  s.version      = "3.3.4"
   s.summary      = "腾讯云通信iOS SDK，集成了ImSDK、QALSDK、TLSSDK 以及 TXLiteAVSDK_LivePlay framework"
 
   s.description  = <<-DESC
-  腾讯云通信iOS SDK，集成了ImSDK、QALSDK、TLSSDK 以及 TXLiteAVSDK_LivePlay framework
+  腾讯云通信iOS SDK，集成了ImSDK、QALSDK、TLSSDK framework
                    DESC
 
   s.homepage     = "https://github.com/zenghaiguang/QQ_Cloud_IM_SDK.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "曾海光" => "zenghaiguang@yixia.com" }
+  s.author             = { "梁慧聪" => "harde1@163.com" }
 
   # s.platform     = :ios
   # s.platform     = :ios, "5.0"
